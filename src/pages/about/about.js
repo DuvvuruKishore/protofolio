@@ -23,7 +23,7 @@ function about() {
            Just like we used the text-align property for a container, we use display: flex for a container as well
            </p>
             <div>
-           <a href="" target="_blank" rel="noopener noreferrer">
+           <a href="https://www.linkedin.com/in/duvvuru-kishore-0979aa135" target="_blank" rel="noopener noreferrer">
            <Button className="m-2" variant="outline-primary">
                My Resume
              </Button>

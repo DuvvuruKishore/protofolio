@@ -1,24 +1,24 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import './project.css';
-import Button from 'react-bootstrap/Button';
 import Accordion from 'react-bootstrap/Accordion'
 import Image from "react-bootstrap/Image";
 import '../projects/project.css';
 import L_HTML5 from "../../assests/skills/html-5.svg";
 import L_CSS3 from "../../assests/skills/css3.svg";
-import L_BOOTSTRAP from "../../assests/skills/bootstrap-4.svg"
 import L_REACT from "../../assests/skills/react.svg";
-import L_REDUX from "../../assests/skills/redux.svg";
-
 import L_MATERIALUI from "../../assests/skills/material-ui-1.svg";
-import L_REACT_BOOTSTRAP from "../../assests/skills/react-bootstrap.svg";
+import REACTTODO from '../projects/React_ToDo_List.webp';
 
+/*import L_REDUX from "../../assests/skills/redux.svg";
+import Button from 'react-bootstrap/Button';
+import L_BOOTSTRAP from "../../assests/skills/bootstrap-4.svg"
+import L_REACT_BOOTSTRAP from "../../assests/skills/react-bootstrap.svg";
 import L_NODE_JS from "../../assests/skills/nodejs.svg";
 import L_EXPRESS from "../../assests/skills/express.svg";
 import L_MONGODB from "../../assests/skills/mongodb.svg";
-import L_JAVASCRIPT from "../../assests/skills/javascript.svg";
-import REACTTODO from '../projects/React_ToDo_List.webp';
+import L_JAVASCRIPT from "../../assests/skills/javascript.svg";*/
+
 
 function project() {
     return (
