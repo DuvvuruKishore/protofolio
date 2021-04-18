@@ -3,20 +3,26 @@ import Card from 'react-bootstrap/Card';
 import './project.css';
 import Accordion from 'react-bootstrap/Accordion'
 import Image from "react-bootstrap/Image";
-import '../projects/project.css';
-import L_HTML5 from "../../assests/skills/html-5.svg";
+import './project.css';
+
 import L_CSS3 from "../../assests/skills/css3.svg";
 import L_REACT from "../../assests/skills/react.svg";
 import L_MATERIALUI from "../../assests/skills/material-ui-1.svg";
-import REACTTODO from '../projects/React_ToDo_List.webp';
+import BIGSALE from '../projects/bigsale.png';
+import UNI from '../projects/uni.jpg';
+import MOVIE from '../projects/movie.jpg';
+import L_NODE_JS from "../../assests/skills/nodejs.svg";
+import L_EXPRESS from "../../assests/skills/express.svg";
+import L_MONGODB from "../../assests/skills/mongodb.svg";
+import L_REACT_BOOTSTRAP from "../../assests/skills/react-bootstrap.svg"
+
+
+
 
 /*import L_REDUX from "../../assests/skills/redux.svg";
 import Button from 'react-bootstrap/Button';
 import L_BOOTSTRAP from "../../assests/skills/bootstrap-4.svg"
 import L_REACT_BOOTSTRAP from "../../assests/skills/react-bootstrap.svg";
-import L_NODE_JS from "../../assests/skills/nodejs.svg";
-import L_EXPRESS from "../../assests/skills/express.svg";
-import L_MONGODB from "../../assests/skills/mongodb.svg";
 import L_JAVASCRIPT from "../../assests/skills/javascript.svg";*/
 
 
@@ -26,13 +32,13 @@ function project() {
         <div id="project">
         <h1 className="pt-3 text-center ">PROJECTS</h1>
         <hr/>
-        <h5>FULL STACK PROJECTS</h5>
+        
         <div className="d-flex justify-content-between flex-row mt-1 ">
               <div className="focus">
             
               <Accordion>
-              <Card style={{ width: '16rem' }} class="card h-200 ">
-              <Card.Img variant="top" src={REACTTODO} />
+              <Card style={{ width: '16rem' }} className="card h-200 ">
+              <Card.Img variant="top" src={BIGSALE} className="img"/>
               {/*<Card.Body titleTypographyProps={{variant:'h3' }}>Project title:Social Man Kind</Card.Body>
               <Card.Body>
               <h6>project title  :  social man kind</h6>
@@ -47,28 +53,18 @@ function project() {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
+                        <strong>Description:</strong> Simple Ecommerce website listing the offer products on a bigsale
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Keeps track of your Todos</li>
-                          <li>Powered by React and Material UI</li>
-                          <li>Respoisive Design</li>
+                          <li>we can view each individual product</li>
+                          <li>we can add to the cart</li>
+                          <li>Responsive Design</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
+                          
                           <li>
                             <span className="p-2">
                               <Image
@@ -94,22 +90,44 @@ function project() {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
+                                src={L_NODE_JS}
+                                alt="NODEJS"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Material-UI
+                              Node Js
                             </span>
                           </li>
+                          <li>
+                          <span className="p-2">
+                            <Image
+                              src={L_EXPRESS}
+                              alt="Express"
+                              rounded
+                              className="image-style1 m-1"
+                            ></Image>{" "}
+                            Express
+                          </span>
+                        </li>
+                        <li>
+                        <span className="p-2">
+                          <Image
+                            src={L_MONGODB}
+                            alt="MongoDb"
+                            rounded
+                            className="image-style1 m-1"
+                          ></Image>{" "}
+                          MongoDb
+                        </span>
+                      </li>
                           
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
                     
                     <Card.Body>
-                    <Card.Link href="#">github</Card.Link>
-                    <Card.Link href="#">webview</Card.Link>
+                    <Card.Link href="https://github.com/DuvvuruKishore/projectone">github</Card.Link>
+                    <Card.Link href="https://confident-shaw-9da624.netlify.app/">webview</Card.Link>
                     </Card.Body>
                     </Card>
                    
@@ -121,8 +139,8 @@ function project() {
 
               <div className="focus">
               <Accordion>
-              <Card style={{ width: '16rem' }} class="card h-200">
-              <Card.Img variant="top" src={REACTTODO} />
+              <Card style={{ width: '16rem' }} className="card h-200">
+              <Card.Img variant="top" src={MOVIE} className="img"/>
               {/*<Card.Body titleTypographyProps={{variant:'h3' }}>Project title:Social Man Kind</Card.Body>
               <Card.Body>
               <h6>project title  :  social man kind</h6>
@@ -137,28 +155,29 @@ function project() {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
+                        <strong>Description:</strong> Movie booking app with signIn and signUp form 
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Keeps track of your Todos</li>
-                          <li>Powered by React and Material UI</li>
+                          <li>we can signIn and signUp</li>
+                          <li>Powered by React ,Material UI</li>
                           <li>Respoisive Design</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
+                        <li>
+                        <span className="p-2">
+                          <Image
+                            src={L_REACT}
+                            alt="React"
+                            rounded
+                            className="image-style1 m-1"
+                          ></Image>{" "}
+                          React
+                        </span>
+                      </li>
+
                           <li>
                             <span className="p-2">
                               <Image
@@ -170,18 +189,7 @@ function project() {
                               CSS3
                             </span>
                           </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
+                           <li>
                             <span className="p-2">
                               <Image
                                 src={L_MATERIALUI}
@@ -192,14 +200,49 @@ function project() {
                               Material-UI
                             </span>
                           </li>
+
+                          <li>
+                          <span className="p-2">
+                            <Image
+                              src={L_NODE_JS}
+                              alt="NODEJS"
+                              rounded
+                              className="image-style1 m-1"
+                            ></Image>{" "}
+                            Node Js
+                          </span>
+                        </li>
+                        <li>
+                        <span className="p-2">
+                          <Image
+                            src={L_EXPRESS}
+                            alt="Express"
+                            rounded
+                            className="image-style1 m-1"
+                          ></Image>{" "}
+                          Express
+                        </span>
+                      </li>
+                      <li>
+                      <span className="p-2">
+                        <Image
+                          src={L_MONGODB}
+                          alt="MongoDb"
+                          rounded
+                          className="image-style1 m-1"
+                        ></Image>{" "}
+                        MongoDb
+                      </span>
+                    </li>
+                       
                           
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
                     
                     <Card.Body>
-                    <Card.Link href="#">github</Card.Link>
-                    <Card.Link href="#">webview</Card.Link>
+                    <Card.Link href="https://github.com/DuvvuruKishore/moviebooking">github</Card.Link>
+                    <Card.Link href="https://jolly-banach-029f0e.netlify.app/">webview</Card.Link>
                     </Card.Body>
                     </Card>
                    
@@ -209,8 +252,8 @@ function project() {
 
               <div className="focus">
               <Accordion>
-              <Card style={{ width: '16rem' }} class="card h-200">
-              <Card.Img variant="top" src={REACTTODO} />
+              <Card style={{ width: '16rem' }} className="card h-200">
+              <Card.Img variant="top" src={UNI} className="img"/>
               {/*<Card.Body titleTypographyProps={{variant:'h3' }}>Project title:Social Man Kind</Card.Body>*/}
               
                     <Accordion.Toggle
@@ -223,28 +266,18 @@ function project() {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
+                        <strong>Description:</strong>Top University and their detail information with images
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Keeps track of your Todos</li>
-                          <li>Powered by React and Material UI</li>
-                          <li>Respoisive Design</li>
+                          <li>University details</li>
+                          <li>Powered by React and React-Bootstrap</li>
+                      
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
+    
                           <li>
                             <span className="p-2">
                               <Image
@@ -270,13 +303,15 @@ function project() {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_MATERIALUI}
+                                src={L_REACT_BOOTSTRAP}
                                 alt="Material-UI"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Material-UI
+                           
+                              
                             </span>
+                            React-Bootstrap
                           </li>
                           
                         </ul>
@@ -284,8 +319,8 @@ function project() {
                     </Accordion.Collapse>
                     
                     <Card.Body>
-                    <Card.Link href="#">github</Card.Link>
-                    <Card.Link href="#">webview</Card.Link>
+                    <Card.Link href="https://github.com/DuvvuruKishore/Uni">github</Card.Link>
+                    <Card.Link href="https://unruffled-lalande-0df8ab.netlify.app/">webview</Card.Link>
                     </Card.Body>
                     </Card>
                    

@@ -3,7 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 //import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
-import Profile from '../../pages/kishore.jpg';
+
+import Profile1 from '../../pages/kishore1.jpg';
 import './about.css';
 import Button from "react-bootstrap/Button";
 
@@ -15,15 +16,19 @@ function about() {
            <h1 className="me">ABOUT ME</h1>
            <hr/>
            <Row xs={12} md={6} className="image">
-           <Image src={Profile} roundedCircle className="rounded mx-auto d-block"/>
+           <Image src={Profile1} roundedCircle className="rounded mx-auto d-block"/>
            {/*<img src={Profile} class="rounded mx-auto d-block" />*/}
            </Row>
            <Row className="center">
-           <p>The third way to center an image horizontally is by using display: flex. 
-           Just like we used the text-align property for a container, we use display: flex for a container as well
+           <h5 className="head">Hi ! I am Duvvuru Kishore</h5>
+           <p>An enthusiastic fresher with high motivational skills having bachelors of engineering degree in electrical and electronics engineering .
+           Infact Electrical degree does not stop me from learning programming . Everyday I am curious to learn new technologies and skills.
+           I have an ability to work as individual  as well as with the team.
+           
+           
            </p>
             <div>
-           <a href="https://www.linkedin.com/in/duvvuru-kishore-0979aa135" target="_blank" rel="noopener noreferrer">
+           <a href="https://drive.google.com/file/d/1UV_gaUxLPlzCSZ91sh7gASzRFM46cBVc/view?usp=sharing" target="_blank" rel="noopener noreferrer">
            <Button className="m-2" variant="outline-primary">
                My Resume
              </Button>
