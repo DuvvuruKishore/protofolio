@@ -3,7 +3,7 @@
    }
 
    .image{
-    width: 60%;
+    width: 100%;
     margin: auto;
     display: block;
     
@@ -20,4 +20,10 @@
   }
   .head{
     margin-left:80px;
+
+    height:40px;
+    padding-top:10px;
+  }
+  .short{
+    height: 150px;
   }

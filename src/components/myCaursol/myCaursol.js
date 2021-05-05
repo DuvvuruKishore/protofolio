@@ -1,8 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Slide1 from '../../assests/caursol/slide1.webp';
 import Slide2 from '../../assests/caursol/slide2.webp';
-import Slide3 from '../../assests/caursol/slide3.webp';
 
 
 import "./myCaursol.css";
@@ -13,14 +11,14 @@ function myCaursol() {
     return (
         <div id="home">
         <Carousel controls={false} indicators interval={2500} pause={false}>
-        <Carousel.Item>
+        {/*<Carousel.Item>
           <img
             className="d-block w-100 custom-img"
             src={Slide1}
             alt="First slide"
           />
     
-        </Carousel.Item>
+        </Carousel.Item>*/}
         <Carousel.Item>
         <img
           className="d-block w-100  custom-img"
@@ -29,8 +27,8 @@ function myCaursol() {
         />
     
         
-      </Carousel.Item>
-      <Carousel.Item>
+        </Carousel.Item>
+      {/*<Carousel.Item>
         <img
           className="d-block w-100  custom-img"
           src={Slide3}
@@ -38,7 +36,7 @@ function myCaursol() {
         />
     
       
-        </Carousel.Item>
+       </Carousel.Item>*/}
     
       </Carousel> 
       <ScrollDown/> 

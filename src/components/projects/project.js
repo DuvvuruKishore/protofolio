@@ -129,8 +129,8 @@ function project() {
                     </Accordion.Collapse>
                     
                     <Card.Body>
-                    <Card.Link href="https://github.com/DuvvuruKishore/projectone">github</Card.Link>
-                    <Card.Link href="https://confident-shaw-9da624.netlify.app/">webview</Card.Link>
+                    <Card.Link href="https://github.com/DuvvuruKishore/projectone" target="_blank">github</Card.Link>
+                    <Card.Link href="https://confident-shaw-9da624.netlify.app/" target="_blank">webview</Card.Link>
                     </Card.Body>
                     </Card>
                    
@@ -244,8 +244,8 @@ function project() {
                     </Accordion.Collapse>
                     
                     <Card.Body>
-                    <Card.Link href="https://github.com/DuvvuruKishore/moviebooking">github</Card.Link>
-                    <Card.Link href="https://jolly-banach-029f0e.netlify.app/">webview</Card.Link>
+                    <Card.Link href="https://github.com/DuvvuruKishore/moviebooking" target="_blank">github</Card.Link>
+                    <Card.Link href="https://jolly-banach-029f0e.netlify.app/" target="_blank">webview</Card.Link>
                     </Card.Body>
                     </Card>
                    
@@ -322,8 +322,8 @@ function project() {
                     </Accordion.Collapse>
                     
                     <Card.Body>
-                    <Card.Link href="https://github.com/DuvvuruKishore/oxygen">github</Card.Link>
-                    <Card.Link href="https://wizardly-colden-10389c.netlify.app/">webview</Card.Link>
+                    <Card.Link href="https://github.com/DuvvuruKishore/oxygen" target="_blank">github</Card.Link>
+                    <Card.Link href="https://wizardly-colden-10389c.netlify.app/" target="_blank">webview</Card.Link>
                     </Card.Body>
                     </Card>
                    
@@ -442,8 +442,8 @@ function project() {
                     </Accordion.Collapse>
                     
                     <Card.Body>
-                    <Card.Link href="https://github.com/DuvvuruKishore/whatsapp">github</Card.Link>
-                    <Card.Link href="https://awesome-lumiere-25be3d.netlify.app/">webview</Card.Link>
+                    <Card.Link href="https://github.com/DuvvuruKishore/whatsapp" target="_blank">github</Card.Link>
+                    <Card.Link href="https://awesome-lumiere-25be3d.netlify.app/" target="_blank">webview</Card.Link>
                     </Card.Body>
                     </Card>
                    
@@ -557,8 +557,8 @@ function project() {
                     </Accordion.Collapse>
                     
                     <Card.Body>
-                    <Card.Link href="https://github.com/DuvvuruKishore/tinder">github</Card.Link>
-                    <Card.Link href="https://blissful-raman-c366f7.netlify.app/">webview</Card.Link>
+                    <Card.Link href="https://github.com/DuvvuruKishore/tinder" target="_blank">github</Card.Link>
+                    <Card.Link href="https://blissful-raman-c366f7.netlify.app/" target="_blank">webview</Card.Link>
                     </Card.Body>
                     </Card>
                    
@@ -635,8 +635,8 @@ function project() {
                     </Accordion.Collapse>
                     
                     <Card.Body>
-                    <Card.Link href="https://github.com/DuvvuruKishore/Uni">github</Card.Link>
-                    <Card.Link href="https://unruffled-lalande-0df8ab.netlify.app/">webview</Card.Link>
+                    <Card.Link href="https://github.com/DuvvuruKishore/Uni" target="_blank">github</Card.Link>
+                    <Card.Link href="https://unruffled-lalande-0df8ab.netlify.app/" target="_blank">webview</Card.Link>
                     </Card.Body>
                     </Card>
                    

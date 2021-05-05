@@ -13,7 +13,7 @@ const ContactForm = () => {
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
-              <a href="mailto:akjha96@gmail.com" target="Gmail" rel="noopener noreferrer">
+              <a href="mailto:duvvurukishore100@gmail.com" target="Gmail" rel="noopener noreferrer">
                 <Button variant="outline-danger" title="duvvurukishore100@gmail.com">
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
@@ -25,7 +25,7 @@ const ContactForm = () => {
                   <i className="fab fa-linkedin"></i> LinkedIn
                 </Button>
               </a>
-            </div>
+  </div>
             
             <div className="m-2">
               <a href="https://github.com/DuvvuruKishore" target="_blank" rel="noopener noreferrer">

@@ -11,6 +11,7 @@ import L_NODE_JS from "../../assests/skills/nodejs.svg";
 import L_EXPRESS from "../../assests/skills/express.svg";
 import L_MONGODB from "../../assests/skills/mongodb.svg";
 import L_JAVASCRIPT from "../../assests/skills/javascript.svg";
+import SYSTEM_DESIGN from '../../pages/systemdesign.jpg';
 
 
 export const Skill= {
@@ -81,6 +82,12 @@ export const Skill= {
         imgAltText: "MongoDB",
         imgSrc: L_MONGODB,
         skillName: "MongoDB",
+      },
+      {
+      
+        imgAltText: "SYSTEM_DESIGN",
+        imgSrc: SYSTEM_DESIGN,
+        skillName: "System Design",
       }
     
   ]
