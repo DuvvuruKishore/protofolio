@@ -10,7 +10,7 @@ import Title from './components/title_message/title_message';
 import About from './pages/about/about';
 import Profile from './assests/parallax/background.webp';
 import Skills from './pages/skills/skills';
-import Project from './components/projects/project'
+import Project from './components/projects/project1'
 import ContactForm from './pages/contactform/contact';
 import FooterPanel from './components/footer/footer';
 

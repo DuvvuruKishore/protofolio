@@ -31,16 +31,17 @@ import L_JAVASCRIPT from "../../assests/skills/javascript.svg";*/
 
 function project() {
     return (
-    <div>
+    <div >
         <div id="project">
         <h1 className="pt-3 text-center ">PROJECTS</h1>
         <hr/>
         
-        <div className="d-flex justify-content-between flex-row mt-1 ">
-              <div className="focus">
+        <div className="d-flex justify-content-center flex-row mt-1">
+    
+              <div className="focus changeWidth">
             
               <Accordion>
-              <Card style={{ width: '16rem' }} className="card h-200 ">
+              <Card style={{ width: '350px' }} className="card h-200 ">
               <Card.Img variant="top" src={BIGSALE} className="img"/>
               {/*<Card.Body titleTypographyProps={{variant:'h3' }}>Project title:Social Man Kind</Card.Body>
               <Card.Body>
@@ -127,11 +128,22 @@ function project() {
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      view project source
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse>
+                    <Card.Body className="space">
                     
-                    <Card.Body>
-                    <Card.Link href="https://github.com/DuvvuruKishore/projectone" target="_blank">github</Card.Link>
-                    <Card.Link href="https://confident-shaw-9da624.netlify.app/" target="_blank">webview</Card.Link>
+                    <a href="https://confident-shaw-9da624.netlify.app/" class="btn btn-primary btn-xs active button1" role="button" aria-pressed="true">github</a>
+                    
+                    <a href="https://github.com/DuvvuruKishore/projectone" class="btn btn-primary btn-xs active button2" role="button" aria-pressed="true">webview</a>
                     </Card.Body>
+                    </Accordion.Collapse>
                     </Card>
                    
                     </Accordion>
@@ -142,7 +154,7 @@ function project() {
 
               <div className="focus">
               <Accordion>
-              <Card style={{ width: '16rem' }} className="card h-200">
+              <Card style={{ width: '350px' }} className="card h-200">
               <Card.Img variant="top" src={MOVIE} className="img"/>
               {/*<Card.Body titleTypographyProps={{variant:'h3' }}>Project title:Social Man Kind</Card.Body>
               <Card.Body>
@@ -243,10 +255,13 @@ function project() {
                       </Card.Body>
                     </Accordion.Collapse>
                     
-                    <Card.Body>
-                    <Card.Link href="https://github.com/DuvvuruKishore/moviebooking" target="_blank">github</Card.Link>
-                    <Card.Link href="https://jolly-banach-029f0e.netlify.app/" target="_blank">webview</Card.Link>
+                    <Card.Body className="space">
+                    <a href="https://github.com/DuvvuruKishore/moviebooking" class="btn btn-secondary btn-xs active button2" role="button" aria-pressed="true">webview</a>
+                    
+                    <a href="https://jolly-banach-029f0e.netlify.app/" class="btn btn-secondary btn-xs active button1" role="button" aria-pressed="true">github</a>
+                    
                     </Card.Body>
+
                     </Card>
                    
                     </Accordion>
@@ -257,7 +272,6 @@ function project() {
               <Accordion>
               <Card style={{ width: '16rem' }} className="card h-200">
               <Card.Img variant="top" src={OXYGEN} className="img"/>
-              {/*<Card.Body titleTypographyProps={{variant:'h3' }}>Project title:Social Man Kind</Card.Body>*/}
               
                     <Accordion.Toggle
                       as={Card.Header}
@@ -330,21 +344,21 @@ function project() {
                     </Accordion>
                 
               </div>
-
               </div>
+
+          
                   </div>
                   
-        <div className="down">
-        <div className="d-flex justify-content-between flex-row mt-1 ">
-              <div className="focus">
+       <div className="down">
+        <div className="d-flex justify-content-center flex-row mt-1 ">
+              <div className="focus changeWidth">
             
               <Accordion>
               <Card style={{ width: '16rem' }} className="card h-200 ">
               <Card.Img variant="top" src={WHATSAPP} className="img"/>
-              {/*<Card.Body titleTypographyProps={{variant:'h3' }}>Project title:Social Man Kind</Card.Body>
               <Card.Body>
               <h6>project title  :  social man kind</h6>
-               </Card.Body>*/}
+               </Card.Body>
                     <Accordion.Toggle
                       as={Card.Header}
                       eventKey="0"
@@ -457,10 +471,9 @@ function project() {
               <Accordion>
               <Card style={{ width: '16rem' }} className="card h-200">
               <Card.Img variant="top" src={TINDER} className="img"/>
-              {/*<Card.Body titleTypographyProps={{variant:'h3' }}>Project title:Social Man Kind</Card.Body>
               <Card.Body>
               <h6>project title  :  social man kind</h6>
-               </Card.Body>*/}
+               </Card.Body>
                     <Accordion.Toggle
                       as={Card.Header}
                       eventKey="0"
@@ -570,7 +583,6 @@ function project() {
               <Accordion>
               <Card style={{ width: '16rem' }} className="card h-200">
               <Card.Img variant="top" src={UNI} className="img"/>
-              {/*<Card.Body titleTypographyProps={{variant:'h3' }}>Project title:Social Man Kind</Card.Body>*/}
               
                     <Accordion.Toggle
                       as={Card.Header}
@@ -645,9 +657,9 @@ function project() {
               </div>
 
               </div>
-                  </div>   
+            </div>   
      </div>
-                  
+              
         
     )
 }
