@@ -1,8 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Slide2 from '../../assests/caursol/slide2.webp';
-import Slide1 from '../../assests/caursol/slide1.webp';
-import Slide3 from '../../assests/caursol/slide3.webp';
+
 
 import "./myCaursol.css";
 import ScrollDown from '../scrolldown/Scrolldown';
