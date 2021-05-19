@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 //import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
 
-import Profile1 from '../../pages/kishore3.jpg';
+import Profile1 from '../../pages/kishore5.jpg';
 import './about.css';
 import Button from "react-bootstrap/Button";
 import { Card } from 'react-bootstrap';
@@ -47,7 +47,7 @@ function about() {
            <Row className="center1">
 
             <div>
-           <a href="https://drive.google.com/file/d/1UV_gaUxLPlzCSZ91sh7gASzRFM46cBVc/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+           <a href="https://drive.google.com/file/d/1aKkSha5O_Ao1VD4aQJoSA2VtfcAMN-1x/view?usp=sharing" target="_blank" rel="noopener noreferrer">
            <Button className="m-2" variant="primary">
                My Resume
              </Button>
