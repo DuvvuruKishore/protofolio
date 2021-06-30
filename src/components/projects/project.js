@@ -152,14 +152,14 @@ function project() {
 
               </div>
 
-              <div className="focus">
+            {/*  <div className="focus">
               <Accordion>
               <Card style={{ width: '350px' }} className="card h-200">
               <Card.Img variant="top" src={MOVIE} className="img"/>
               {/*<Card.Body titleTypographyProps={{variant:'h3' }}>Project title:Social Man Kind</Card.Body>
               <Card.Body>
               <h6>project title  :  social man kind</h6>
-               </Card.Body>*/}
+               </Card.Body>
                     <Accordion.Toggle
                       as={Card.Header}
                       eventKey="0"
@@ -267,7 +267,7 @@ function project() {
                     </Accordion>
                 
               </div>
-
+              */}
               <div className="focus">
               <Accordion>
               <Card style={{ width: '16rem' }} className="card h-200">

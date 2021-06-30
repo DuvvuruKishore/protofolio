@@ -11,7 +11,6 @@ import L_REACT from "../../assests/skills/react.svg";
 import L_MATERIALUI from "../../assests/skills/material-ui-1.svg";
 import ECOMMERECE from '../projects/ecommerece.png';
 import UNI from '../projects/uni.jpg';
-import MOVIE from '../projects/movie.jpg';
 import OXYGEN from './oxygen.jpg';
 import WHATSAPP from './whatsapp.jpg';
 import TINDER from './tinder.jpg';
@@ -162,7 +161,7 @@ const TimeLine = () => {
           </ImageEvent>
 
 
-          <ImageEvent
+      {/*    <ImageEvent
           className="text-center"
           text="movie booking"
           src={MOVIE}
@@ -282,7 +281,7 @@ const TimeLine = () => {
             </div>
           </div>
         </ImageEvent>
-
+      */}
 
         <ImageEvent
         className="text-center"
